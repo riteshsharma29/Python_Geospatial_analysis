@@ -20,8 +20,7 @@ def get_lat_long(cityname):
 
 # Load excel Workbook using openpyxl
 book = load_workbook("US_Source_states_cities.xlsx")
-# worksheets = tuple(book.sheetnames)
-worksheets = ('Hawaii', 'Idaho', 'Illinois', 'Indiana', 'Iowa', 'Kansas', 'Kentucky', 'Louisiana', 'Maine', 'Maryland', 'Massachusetts', 'Michigan', 'Minnesota', 'Mississippi', 'Missouri', 'Montana', 'Nebraska', 'Nevada', 'New Hampshire', 'New Jersey', 'New Mexico', 'New York', 'North Carolina', 'North Dakota', 'Ohio', 'Oklahoma', 'Oregon', 'Pennsylvania', 'Rhode Island', 'South Carolina', 'South Dakota', 'Tennessee', 'Texas', 'Utah', 'Vermont', 'Virginia', 'Washington', 'West Virginia', 'Wisconsin', 'Wyoming')
+worksheets = tuple(book.sheetnames)
 
 for sheetname in worksheets:
     if sheetname != 'Sheet2':
