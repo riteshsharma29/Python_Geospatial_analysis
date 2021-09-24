@@ -8,8 +8,8 @@ https://amaral.northwestern.edu/blog/getting-long-lat-list-cities
 https://pythoninoffice.com/use-python-to-combine-multiple-excel-files/
 '''
 
-# key = "b3b45bc8cb4e4622a58c67b5bba7e8d3"  # get api key from:  https://opencagedata.com
-key = "c4956bfaf3184517abd77ffa08102963"
+# get api key from:  https://opencagedata.com
+key = ""
 geocoder = OpenCageGeocode(key)
 
 def get_lat_long(cityname):
